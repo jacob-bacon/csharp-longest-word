@@ -18,10 +18,8 @@ namespace FindLongestSubstring
                 if (substring.Length > longestSubstring.Length)
                 {
                     longestSubstring = substring;
-                }
-                
+                {
             }
-
             Console.WriteLine("The longest substring is \"{0}\", which is {1} characters long.", longestSubstring, longestSubstring.Length);
         }
     }
